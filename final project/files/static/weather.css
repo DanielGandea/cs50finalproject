@@ -1,0 +1,91 @@
+.weather>.side_btn>li>*,
+.weather>* {
+    background-color: rgb(255, 228, 223) !important;
+    color: var(--red) !important;
+    stroke: none !important;
+    fill: var(--red) !important;
+}
+
+.svg2 {
+    fill: var(--red);
+}
+
+.second_bm_nav {
+    background-color: rgb(255, 228, 223);
+}
+
+.meteo_data {
+    display: flex;
+    width: 100%;
+}
+
+.meteo_data>* {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feels_like {
+    border-left: 1px solid var(--grey);
+    border-right: 1px solid var(--grey);
+}
+
+.meteo_data>*>p {
+    font-size: 24px;
+}
+
+input.bttn {
+    margin-top: 5px !important;
+}
+
+@media only screen and (max-width: 1018px) {
+    h3 {
+        font-size: 22px;
+    }
+
+    .meteo_data>*>p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .meteo_data>*>p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .meteo_data {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .meteo_data>* {
+        margin-top: 12px;
+        padding-bottom: 12px;
+        width: 100%;
+        border-bottom: 1px solid var(--grey);
+    }
+
+    .feels_like {
+        border-left: none;
+        border-right: none;
+    }
+
+    .description {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    .location {
+        width: calc(100% - 24px);
+        margin-right: 0;
+    }
+}

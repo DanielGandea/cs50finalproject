@@ -1,0 +1,14 @@
+.myTodos > .side_btn > li > *, .myTodos > *{
+    background-color: rgb(255, 228, 223) !important; 
+    color: var(--red) !important;
+    stroke: var(--red) !important;
+    fill: var(--red) !important;
+}
+
+.svg1{
+    fill: var(--red);
+}
+
+.first_bm_nav{
+    background-color: rgb(255, 228, 223);
+}

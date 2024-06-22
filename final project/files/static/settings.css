@@ -1,0 +1,121 @@
+input[type=submit] {
+    font-weight: 600;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--green);
+    color: white;
+    border: 2px solid var(--green);
+    transition: 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: var(--green);
+    border: 2px solid var(--green);
+}
+
+input[type=text],
+input[type=password] {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 150%;
+    font-family: var(--title);
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.settings_forms {
+    display: flex;
+}
+
+@media only screen and (max-width: 1030px) {
+    .settings_forms {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    p.mt-2 {
+        margin-top: 36px !important;
+    }
+
+    .pass-form {
+        margin-top: 20px;
+    }
+
+    .user-form,
+    .pass-form {
+        margin-top: -10px !important;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=submit] {
+        width: 50%;
+    }
+}
+
+.username,
+.password {
+
+    border: 1px solid red;
+}
+
+.task_content>header {
+    background: url("https://images.unsplash.com/photo-1584204559709-ca7d413229eb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.settings>.side_btn>li>*,
+.settings>* {
+    background-color: rgb(255, 228, 223) !important;
+    color: var(--red) !important;
+    stroke: none !important;
+    fill: var(--red) !important;
+}
+
+.svg4 {
+    fill: var(--red);
+}
+
+.fourth_bm_nav {
+    background-color: rgb(255, 228, 223);
+}
+
+.flash {
+    width: 50% !important;
+    margin-left: 25% !important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+    p {
+        font-size: 120%;
+    }
+
+}
+
+@media only screen and (max-width: 260px) {
+    p {
+        font-size: 100%;
+    }
+}

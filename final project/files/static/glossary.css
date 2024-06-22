@@ -1,0 +1,29 @@
+.glossary>.side_btn>li>*,
+.glossary>* {
+
+    background-color: rgb(255, 228, 223) !important;
+    color: var(--red) !important;
+    stroke: var(--red) !important;
+    fill: var(--red) !important;
+}
+
+.svg3 {
+    fill: var(--red);
+}
+
+.third_bm_nav {
+    background-color: rgb(255, 228, 223);
+}
+
+@media only screen and (max-width: 933px) {
+    .bttn {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    .word {
+        width: calc(100% - 20px);
+        margin-right: 0;
+    }
+}
