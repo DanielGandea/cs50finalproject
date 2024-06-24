@@ -25,7 +25,9 @@ We have a styles.css file which contains all the general styles and then we have
 All the files, besides app.py are in the "files" folder. There we have separated static (all the styles and js scripts), templates (html) and the python programs.
 
 The __init.py__ does most of the basic work like redirecting to the landing page if not logged in and connecting to the local database. It also hold the secret key and initializes the app.
-  
+The __view.py__ contais all the logic for the websites that you see after login.
+__db_models.py__ holds the classes of the databases structures and also the forms for login, settings.
+__auth.py__  is the file where all the logic for registration and login.
 
 
 ## Landing Page
