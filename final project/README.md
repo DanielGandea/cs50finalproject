@@ -1,6 +1,6 @@
 # Nakano
 
-#### Video Demo: <https://youtu.be/lYzeq28Alng>
+#### Video Demo: <https://youtu.be/vrCOXet3TJ0>
 
 #### Description:
 
