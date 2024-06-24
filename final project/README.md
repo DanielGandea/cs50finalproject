@@ -22,7 +22,11 @@ A design choice that we made was to put the notes more like sticky notes on a bo
 
 We have a styles.css file which contains all the general styles and then we have a separate file with styles for each page, so we could manage them easier. Every page has a descriptive image that represents it.
 
+All the files, besides app.py are in the "files" folder. There we have separated static (all the styles and js scripts), templates (html) and the python programs.
+
+The __init.py__ does most of the basic work like redirecting to the landing page if not logged in and connecting to the local database. It also hold the secret key and initializes the app.
   
+
 
 ## Landing Page
 
